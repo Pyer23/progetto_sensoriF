@@ -1,0 +1,189 @@
+{
+    "sensors": [
+        {
+            "description": "Accelerometro x23 per oggetti vari",
+            "mass": 15,
+            "maxValue": 50,
+            "minValue": 0,
+            "name": "ACCX23",
+            "range": 10,
+            "type": "accelerometer"
+        },
+        {
+            "description": "Accelerometro k24 per simulazioni varie",
+            "mass": 12,
+            "maxValue": -1,
+            "minValue": -12,
+            "name": "ACCK18",
+            "range": 9,
+            "type": "accelerometer"
+        },
+        {
+            "description": "Accelerometro per test",
+            "mass": 10,
+            "maxValue": 10,
+            "minValue": 1,
+            "name": "ACCELEROMETRO R27",
+            "range": 19,
+            "type": "accelerometer"
+        },
+        {
+            "description": "Simulatore di accelerometro",
+            "mass": 99,
+            "maxValue": 100,
+            "minValue": 5,
+            "name": "A99",
+            "range": 5,
+            "type": "accelerometer"
+        },
+        {
+            "description": "accelerometro 2",
+            "mass": 1,
+            "maxValue": 10,
+            "minValue": -3,
+            "name": "ACC21",
+            "range": 5,
+            "type": "accelerometer"
+        },
+        {
+            "description": "Rileva umidità assoluta",
+            "maxValue": 12,
+            "minValue": -5,
+            "name": "HUMah19",
+            "range": 18,
+            "type": "humidity",
+            "volume": 50
+        },
+        {
+            "description": "Sensore di umidità assoluta basico",
+            "maxValue": 10,
+            "minValue": 1,
+            "name": "HumAH99",
+            "range": 23,
+            "type": "humidity",
+            "volume": 18
+        },
+        {
+            "description": "Simulatore di sensore di umidità",
+            "maxValue": 80,
+            "minValue": 5,
+            "name": "H25",
+            "range": 50,
+            "type": "humidity",
+            "volume": 19
+        },
+        {
+            "description": "Sensore che simula la variazione dell'umidità nell'ambiente",
+            "maxValue": 51,
+            "minValue": 2,
+            "name": "HumidityX24",
+            "range": 25,
+            "type": "humidity",
+            "volume": 40
+        },
+        {
+            "description": "Sensore di umidità relativa",
+            "maxValue": 20,
+            "minValue": 10,
+            "name": "HRH",
+            "range": 3,
+            "type": "humidityRH",
+            "volume": 20
+        },
+        {
+            "description": "Sensore di umidità relativa indoor",
+            "maxValue": 10,
+            "minValue": -4,
+            "name": "hrh25",
+            "range": 27,
+            "type": "humidityRH",
+            "volume": 30
+        },
+        {
+            "description": "Sensore di umidità che calcola l'umidità relativa",
+            "maxValue": 15,
+            "minValue": 0,
+            "name": "RHW77",
+            "range": 8,
+            "type": "humidityRH",
+            "volume": 45
+        },
+        {
+            "description": "sensore HUMRH",
+            "maxValue": 12,
+            "minValue": 1,
+            "name": "HUMRH",
+            "range": 12,
+            "type": "humidityRH",
+            "volume": 10
+        },
+        {
+            "description": "sensore di temperatura",
+            "maxValue": 54,
+            "minValue": 1,
+            "name": "TEMP18",
+            "range": 23,
+            "type": "temperature"
+        },
+        {
+            "description": "sensore che rileva la temperatura",
+            "maxValue": 20,
+            "minValue": -34,
+            "name": "TEMPX99",
+            "range": 32,
+            "type": "temperature"
+        },
+        {
+            "description": "sensore che mostra variazioni rilevate",
+            "maxValue": 30,
+            "minValue": -50,
+            "name": "temperatureS",
+            "range": 43,
+            "type": "temperature"
+        },
+        {
+            "description": "sensore23 temp senza contatto",
+            "maxValue": 33,
+            "minValue": -9,
+            "name": "temp23",
+            "range": 2,
+            "type": "temperature"
+        },
+        {
+            "description": "sensore di temperatura per metalli",
+            "maxValue": 50,
+            "minValue": -4,
+            "name": "tempC",
+            "range": 4,
+            "type": "temperatureC",
+            "volume": 1
+        },
+        {
+            "description": "sensore di temperatura a contatto",
+            "maxValue": 50,
+            "minValue": -9,
+            "name": "TC19",
+            "range": 7,
+            "type": "temperatureC",
+            "volume": 15
+        },
+        {
+            "description": "temperatura ridotta dalla reistenza",
+            "maxValue": 50,
+            "minValue": 9,
+            "name": "TCM22",
+            "range": 30,
+            "type": "temperatureC",
+            "volume": 18
+        },
+        {
+            "description": "temperatura a contatto variabile in base alla reistenza",
+            "maxValue": 50,
+            "minValue": 0,
+            "name": "TemperatureSensorContact",
+            "range": 10,
+            "type": "temperatureC",
+            "volume": 23
+        }
+    ]
+}

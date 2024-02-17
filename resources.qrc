@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+<qresource>
+    <file>images/sensone_icon.ico</file>
+    <file>images/more_range.ico</file>
+    <file>images/less_range.ico</file>
+    <file>images/save_chartimage.ico</file>
+</qresource>
+</RCC>
